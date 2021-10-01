@@ -5,6 +5,7 @@ const morgan = require('morgan');
 const dishesRouter = require('./routers/dishesRouter');
 const leadersRouter = require('./routers/leadersRouter');
 const promotionsRouter = require('./routers/promotionsRouter');
+const string = 'hacktoberfest';
 
 const hostname = 'localhost';
 const port = 9000;
