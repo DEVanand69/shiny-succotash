@@ -28,6 +28,7 @@ app.all('/*', (req, res, next) => {
 	);
 });
 
+console.log('For Hactober');
 const server = http.createServer(app);
 server.listen(port, hostname, () => {
 	console.log('Server running on ', { hostname, port });
